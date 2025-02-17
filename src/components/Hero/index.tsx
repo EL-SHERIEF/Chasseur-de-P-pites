@@ -43,7 +43,7 @@ const Hero = () => {
         </motion.div>
 
         <div className="relative mx-auto mt-16 max-w-5xl pointer-events-none">
-          <motion.div style={{ y: y1 }} className="absolute sm:-top-48 sm:-left-48 -top-24 -left-24 w-48">
+          <motion.div style={{ y: y1 }} className="absolute sm:-top-48 sm:-left-48 sm:w-96">
             <Image
             src="/images/hero/hero-image.jpg"
             alt="Hero 1"
@@ -53,7 +53,7 @@ const Hero = () => {
               priority
             />
           </motion.div>
-          <motion.div style={{ y: y2 }} className="absolute -top-32  -right-32 w-48">
+          <motion.div style={{ y: y2 }} className="absolute sm:-top-64 sm:-right-48 -top-32 -right-32 sm:w-96">
             <Image
             src="/images/hero/hero-image.jpg"
             alt="Hero 2"
