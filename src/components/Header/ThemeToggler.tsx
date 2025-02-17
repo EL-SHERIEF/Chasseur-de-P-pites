@@ -1,7 +1,16 @@
+import { useEffect } from "react";
 import { useTheme } from "next-themes";
 
 const ThemeToggler = () => {
-  const { theme, setTheme } = useTheme();
+  const { theme, setTheme, resolvedTheme } = useTheme();
+
+  // Ensure the theme is set to light by default
+  useEffect(() => {
+    if (!theme && resolvedTheme === "system") {
+      setTheme("light");
+    }
+  }, [theme, resolvedTheme, setTheme]);
+
   return (
     <button
       aria-label="theme toggler"
