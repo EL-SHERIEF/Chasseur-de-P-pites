@@ -13,20 +13,19 @@ const About = () => {
             <div className="w-full px-4 lg:w-1/2">
               <div className="mb-12 max-w-[540px] lg:mb-0">
                 <h2 className="mb-5 text-3xl font-bold leading-tight text-dark dark:text-white sm:text-[40px] sm:leading-[1.2]">
-                Un service de surveillance intelligent
+                  Votre partenaire en surveillance publicitaire
                 </h2>
                 <p className="mb-10 text-base leading-relaxed text-body-color dark:text-dark-6">
-                Nous sommes une équipe de passionnés qui souhaitent vous aider à trouver les meilleures opportunités sur le marché.
+                  Chez Chasseur de Pépites, nous révolutionnons la façon dont les entreprises surveillent leurs publicités. Notre plateforme SaaS innovante vous permet de suivre, analyser et optimiser vos campagnes publicitaires en temps réel.
                   <br /> <br />
-                  Nous sommes une équipe de passionnés qui souhaitent vous aider à trouver les meilleures opportunités sur le marché.
-
+                  Grâce à notre technologie de pointe, vous ne manquerez plus jamais une opportunité d'améliorer vos performances publicitaires. Recevez des alertes instantanées, accédez à des analyses détaillées et prenez des décisions éclairées pour maximiser votre ROI.
                 </p>
 
                 <Link
                   href="#"
                   className="inline-flex items-center justify-center rounded-md bg-primary px-7 py-3 text-center text-base font-medium text-white duration-300 hover:bg-primary/90"
                 >
-                  Know More
+                  En savoir plus
                 </Link>
               </div>
             </div>
@@ -59,13 +58,13 @@ const About = () => {
                   <div className="relative z-10 mb-4 flex items-center justify-center overflow-hidden bg-primary px-6 py-12 sm:mb-8 sm:h-[160px] sm:p-5 lg:mb-4 xl:mb-8">
                     <div>
                       <span className="block text-5xl font-extrabold text-white">
-                        09
+                        24/7
                       </span>
                       <span className="block text-base font-semibold text-white">
-                        We have
+                        Surveillance
                       </span>
                       <span className="block text-base font-medium text-white text-opacity-70">
-                        Years of experience
+                        en temps réel
                       </span>
                     </div>
                     <div>

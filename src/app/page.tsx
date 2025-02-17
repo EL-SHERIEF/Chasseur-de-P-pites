@@ -14,8 +14,8 @@ import { getAllPosts } from "@/utils/markdown";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Play Next.js - SaaS Starter Kit and Boilerplate for Next.js",
-  description: "Free Next.js SaaS Boilerplate and Starter Kit designed and built for SaaS startups. It comes with all necessary integrations, pages, and components you need to launch a feature-rich SaaS websites.",
+  title: "Chasseur de Pépites - Surveillez vos publicités en temps réel",
+  description: "Plateforme SaaS innovante pour surveiller et optimiser vos campagnes publicitaires en temps réel. Maximisez votre ROI publicitaire avec des analyses détaillées et des alertes instantanées.",
 };
 
 export default function Home() {

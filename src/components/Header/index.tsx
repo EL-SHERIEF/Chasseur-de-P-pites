@@ -21,15 +21,23 @@ const Header = () => {
   // Sticky Navbar
   const [sticky, setSticky] = useState(false);
   const handleStickyNavbar = () => {
-    if (window.scrollY >= 80) {
-      setSticky(true);
-    } else {
-      setSticky(false);
+    if (typeof window !== 'undefined') {
+      if (window.scrollY >= 80) {
+        setSticky(true);
+      } else {
+        setSticky(false);
+      }
     }
   };
+
   useEffect(() => {
-    window.addEventListener("scroll", handleStickyNavbar);
-  });
+    if (typeof window !== 'undefined') {
+      window.addEventListener("scroll", handleStickyNavbar);
+      return () => {
+        window.removeEventListener("scroll", handleStickyNavbar);
+      };
+    }
+  }, []);
 
   // submenu handler
   const [openIndex, setOpenIndex] = useState(-1);

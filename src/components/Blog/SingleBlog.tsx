@@ -1,5 +1,6 @@
 import { Blog } from "@/types/blog";
 import { format } from "date-fns";
+import { fr } from 'date-fns/locale';
 import Image from "next/image";
 import Link from "next/link";
 
@@ -21,7 +22,7 @@ const SingleBlog = ({ blog }: { blog: Blog }) => {
       </div>
       <div>
         <span className="mb-5 inline-block rounded bg-primary px-4 py-1 text-center text-xs font-semibold leading-loose text-white">
-          {format(new Date(date), "dd MMM yyyy")}
+          {format(new Date(date), "dd MMM yyyy", { locale: fr })}
         </span>
         <h3>
           <Link
