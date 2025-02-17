@@ -16,10 +16,8 @@ const About = () => {
                   Votre partenaire en surveillance publicitaire
                 </h2>
                 <p className="mb-10 text-base leading-relaxed text-body-color dark:text-dark-6">
-                  Chez Chasseur de Pépites, nous révolutionnons la façon dont les entreprises surveillent leurs publicités. Notre plateforme SaaS innovante vous permet de suivre, analyser et optimiser vos campagnes publicitaires en temps réel.
-                  <br /> <br />
-                  Grâce à notre technologie de pointe, vous ne manquerez plus jamais une opportunité d'améliorer vos performances publicitaires. Recevez des alertes instantanées, accédez à des analyses détaillées et prenez des décisions éclairées pour maximiser votre ROI.
-                </p>
+  {`Grâce à notre technologie de pointe, vous ne manquerez plus jamais une opportunité d'améliorer vos performances publicitaires. Recevez des alertes instantanées, accédez à des analyses détaillées et prenez des décisions éclairées pour maximiser votre ROI.`}
+</p>
 
                 <Link
                   href="#"
