@@ -150,7 +150,7 @@ const Footer = () => {
               <div className="mb-6 flex items-center">
                 <Link
                   href="https://facebook.com"
-                  className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-stroke text-dark hover:border-primary hover:bg-primary hover:text-white dark:border-dark-3 dark:text-white dark:hover:border-primary sm:mr-4 lg:mr-3 xl:mr-4"
+                  className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-stroke text-white hover:border-primary hover:bg-primary hover:text-white dark:border-dark-3 dark:text-white dark:hover:border-primary sm:mr-4 lg:mr-3 xl:mr-4"
                 >
                   <svg
                     width="8"
@@ -163,7 +163,7 @@ const Footer = () => {
                 </Link>
                 <Link
                   href="https://twitter.com"
-                  className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-stroke text-dark hover:border-primary hover:bg-primary hover:text-white dark:border-dark-3 dark:text-white dark:hover:border-primary sm:mr-4 lg:mr-3 xl:mr-4"
+                  className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-stroke text-white hover:border-primary hover:bg-primary hover:text-white dark:border-dark-3 dark:text-white dark:hover:border-primary sm:mr-4 lg:mr-3 xl:mr-4"
                 >
                   <svg
                     width="16"
@@ -176,7 +176,7 @@ const Footer = () => {
                 </Link>
                 <Link
                   href="https://linkedin.com"
-                  className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-stroke text-dark hover:border-primary hover:bg-primary hover:text-white dark:border-dark-3 dark:text-white dark:hover:border-primary sm:mr-4 lg:mr-3 xl:mr-4"
+                  className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-stroke text-white hover:border-primary hover:bg-primary hover:text-white dark:border-dark-3 dark:text-white dark:hover:border-primary sm:mr-4 lg:mr-3 xl:mr-4"
                 >
                   <svg
                     width="14"
