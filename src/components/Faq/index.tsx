@@ -7,8 +7,8 @@ const Faq = () => {
       <div className="container">
         <SectionTitle
           subtitle="FAQ"
-          title="Any Questions? Answered"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Des Questions ? Nous Avons les Réponses"
+          paragraph="Découvrez les réponses aux questions les plus fréquemment posées sur notre service de surveillance publicitaire."
           width="640px"
           center
         />
@@ -16,31 +16,31 @@ const Faq = () => {
         <div className="-mx-4 mt-[60px] flex flex-wrap lg:mt-20">
           <div className="w-full px-4 lg:w-1/2">
             <SingleFaq
-              question="How to use TailGrids?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="Comment fonctionne votre service de surveillance ?"
+              answer="Notre plateforme surveille en continu vos campagnes publicitaires 24h/24 et 7j/7. Nous analysons automatiquement les performances, détectons les anomalies et vous alertons en temps réel pour optimiser vos investissements publicitaires."
             />
             <SingleFaq
-              question="How to download icons from LineIcons?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="Quelle est la durée minimale d'engagement ?"
+              answer="Nous proposons des abonnements mensuels sans engagement. Vous pouvez annuler à tout moment. Pour les entreprises, nous offrons également des contrats annuels avec des tarifs préférentiels."
             />
             <SingleFaq
-              question="Is GrayGrids part of UIdeck?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="Quelles plateformes publicitaires surveillez-vous ?"
+              answer="Nous surveillons les principales plateformes publicitaires comme Google Ads, Facebook Ads, Instagram Ads, LinkedIn Ads et TikTok Ads. Notre système s'adapte continuellement pour intégrer de nouvelles plateformes."
             />
           </div>
 
           <div className="w-full px-4 lg:w-1/2">
             <SingleFaq
-              question="Can I use this template for commercial project?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="Comment sont gérées les données de mes campagnes ?"
+              answer="Vos données sont stockées de manière sécurisée sur des serveurs européens, en conformité avec le RGPD. Nous utilisons un cryptage de bout en bout et ne partageons jamais vos informations avec des tiers."
             />
             <SingleFaq
-              question="Do you have plan to releasing Play Pro?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="Proposez-vous une période d'essai gratuite ?"
+              answer="Oui, nous offrons une période d'essai gratuite de 14 jours pour tester l'ensemble de nos fonctionnalités. Aucune carte bancaire n'est requise pendant la période d'essai."
             />
             <SingleFaq
-              question="Where and how to host this template?"
-              answer="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              question="Quel support technique proposez-vous ?"
+              answer="Notre équipe de support technique est disponible en français du lundi au vendredi de 9h à 18h. Nous proposons une assistance par chat, email et téléphone, avec un temps de réponse moyen inférieur à 2 heures."
             />
           </div>
         </div>

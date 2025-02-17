@@ -51,7 +51,7 @@ const Hero = () => {
                   <Image
                     src="/images/hero/hero-image.jpg"
                     alt="hero"
-                    className="mx-auto max-w-full rounded-t-xl rounded-tr-xl"
+                    className="mx-auto max-w-full max-h-[316px] object-cover rounded-t-xl rounded-tr-xl"
                     width={845}
                     height={316}
                   />
