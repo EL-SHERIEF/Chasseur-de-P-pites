@@ -15,6 +15,18 @@ const Hero = () => {
   return (
     <section id="home" className="shadow-xl relative overflow-hidden bg-primary pt-[120px] md:pt-[130px] lg:pt-[160px] text-center" ref={ref}>
       <div className="container mx-auto px-6 sm:px-12 lg:px-20">
+    {/* 
+    
+      <Image
+            src="/images/hero/hero-ties.jpg"
+            alt="Hero 1"
+              className="absolute w-full h-full top-0 left-0 z-[0] mix-blend-multiply pointer-events-none"
+              width={400}
+              height={250}
+              priority
+            />
+    
+    */}
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
